@@ -27,9 +27,39 @@ th, td
 	vertical-align: middle;
 }
 
+.table-caption
+{
+	background-color: white;
+	vertical-align: top;
+	font-weight: bold;
+}
 
+.right 
+{
+	text-align: right;
+}
 
-tbody tr:nth-child(even) td 
+.top 
+{
+	vertical-align: top;
+}
+
+.bold 
+{
+	font-weight: bold;
+}
+
+.center-text 
+{
+	text-align: center;
+}
+
+.center-elements 
+{
+	margin: 0 auto;
+}
+
+tbody tr:nth-child(even) 
 {
 	background-color: yellow;
 }
