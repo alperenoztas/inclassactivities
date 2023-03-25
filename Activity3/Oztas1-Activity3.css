@@ -1,0 +1,66 @@
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+	position:fixed;
+	top:1%;
+	left:1%;
+}
+
+
+.header {
+	background-color: #ffff00;
+	padding: 20px;
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	padding: 2%;
+}
+
+.logo {
+	float: left;
+	background-color: blue;
+}
+.logo img{
+	width: 250px;
+	height:100px
+}
+
+.title{
+	background-color: red;
+}
+
+.content{
+	background-color: green;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2%;
+}
+
+.image{
+	float: left;
+	padding-right: 2%;
+}
+
+.image img{
+	width: 250px;
+	height: 250px;
+}
+
+.head{
+	background-color: blue;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	text-align: center;
+
+}
