@@ -1,3 +1,10 @@
+/*
+@Author : Alperen
+This is my CSS file for Activity 3
+*/
+
+
+/*This is given by instructor just top left space and position added*/
 .advertisement
 {
 	width:100px;
@@ -11,10 +18,9 @@
 	left:1%;
 }
 
-
+/*Header div is parent div for logo and title and centered*/
 .header {
-	background-color: #ffff00;
-	padding: 20px;
+	padding: 5%;
 	text-align: center;
 	width: 70%;
 	margin-left: auto;
@@ -23,44 +29,44 @@
 	padding: 2%;
 }
 
+/*Logo is the first div inside header*/
 .logo {
 	float: left;
-	background-color: blue;
 }
+
+/*Image size has set */
 .logo img{
 	width: 250px;
 	height:100px
 }
-
-.title{
-	background-color: red;
-}
-
+/*Content place is 70% of the page and text-size and font changed*/
 .content{
-	background-color: green;
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 2%;
+	font-size: large;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*Koala image is the first and should be in the top left*/
 .image{
 	float: left;
 	padding-right: 2%;
 }
 
+/*Koala image width and height set*/
 .image img{
 	width: 250px;
 	height: 250px;
 }
 
+/*Footer part is done with margin and padding and copyright aligned in center*/
 .head{
-	background-color: blue;
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10%;
-	margin-bottom: 5%;
 	text-align: center;
 
 }
