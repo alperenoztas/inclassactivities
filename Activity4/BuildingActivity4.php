@@ -9,10 +9,12 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <h1>Registration Form</h1>
+    <!-- Form Layout -->
     <form action="BuildingActivity4-preview.php" method="get">
+
+        <!-- Input Fields -->
         <label>Name :</label>
         <input type="text" name="name" id="name"><br><br>
 
@@ -52,8 +54,6 @@
         <textarea name="about" id="about" cols="30" rows="5"></textarea><br><br>
 
         <input type="submit" id="submit-button" value="submit">
-
     </form>
 </body>
-
 </html>
