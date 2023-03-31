@@ -51,7 +51,7 @@
         <label>About :</label>
         <textarea name="about" id="about" cols="30" rows="5"></textarea><br><br>
 
-        <input type="submit" id="submit-button" value="Submit">
+        <input type="submit" id="submit-button" value="submit">
 
     </form>
 </body>
