@@ -11,10 +11,10 @@
 </head>
 <body>
     <h1>Registration Form</h1>
-    <!-- Form Layout -->
-    <form action="BuildingActivity4-preview.php" method="get">
+    
+    <form action="Activity4-preview.php" method="get">
 
-        <!-- Input Fields -->
+        
         <label>Name :</label>
         <input type="text" name="name" id="name"><br><br>
 

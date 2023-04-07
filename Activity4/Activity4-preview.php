@@ -105,6 +105,7 @@
             echo "<br>";
         }
 
+        //About Condition
         if($_GET['about'] == null)
         {
             echo "About: Not Provided <br>";
@@ -113,11 +114,6 @@
         {
             echo $_GET['about']."<br>";
         }
-       
-            
-        
-
-
     ?>
 </body>
 </html>

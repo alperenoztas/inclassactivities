@@ -1,0 +1,18 @@
+label{
+    display: inline-block;
+    width: 60px;
+}
+form > input{
+    box-sizing: border-box;
+    width : 150px;
+}
+
+form > select {
+    width: 80px;
+}
+
+#convert-button{
+    margin-top: 10px;
+    width: 60px;
+    margin-left: 300px;
+}
