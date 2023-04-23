@@ -12,13 +12,11 @@ var intervalID = setInterval(changePosition, timeout);
 function changePosition() {
 
     /* 
-    random position can be between 0 and 300 but it can be changed.
-    with window object we can get the width and height of the window.
-    but due to instructions, I didn't use it.
+    I used window object we can get the width and height of the window.
+    So it can be randomly appear in the screen for any size of the screen.
     */
-
-    var marginTop = Math.random() * 300 + "px";
-    var marginLeft = Math.random() * 300 + "px";
+    var marginTop = Math.random() * window.innerHeight + "px";
+    var marginLeft = Math.random() * window.innerWidth + "px";
     button.style.marginTop = marginTop;
     button.style.marginLeft = marginLeft;
 }
