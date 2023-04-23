@@ -18,8 +18,8 @@ function changePosition() {
     so it can be appear in the screen.
     */
 
-    var marginTop = (Math.random() * window.innerHeight) - button.offsetHeight + "px";
-    var marginLeft = (Math.random() * window.innerWidth) - button.offsetWidth + "px";
+    var marginTop = Math.random() * (window.innerHeight - button.offsetHeight)  + "px";
+    var marginLeft = Math.random() * (window.innerWidth - button.offsetWidth) + "px";
     button.style.marginTop = marginTop;
     button.style.marginLeft = marginLeft;
 }
