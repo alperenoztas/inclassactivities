@@ -14,9 +14,12 @@ function changePosition() {
     /* 
     I used window object we can get the width and height of the window.
     So it can be randomly appear in the screen for any size of the screen.
+    Also I substracted the button's width and height from the random number
+    so it can be appear in the screen.
     */
-    var marginTop = Math.random() * window.innerHeight + "px";
-    var marginLeft = Math.random() * window.innerWidth + "px";
+
+    var marginTop = (Math.random() * window.innerHeight) - button.offsetHeight + "px";
+    var marginLeft = (Math.random() * window.innerWidth) - button.offsetWidth + "px";
     button.style.marginTop = marginTop;
     button.style.marginLeft = marginLeft;
 }
