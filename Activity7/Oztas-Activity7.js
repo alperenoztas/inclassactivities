@@ -75,6 +75,9 @@ function addScore(){
 	else {
 		names.push(String($("name").value));
 		scores.push(parseInt($("score").value));
+		$("name").value = "";
+    	$("score").value = "";
+    	$("name").focus();
 	}
 
 }
