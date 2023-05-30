@@ -1,11 +1,14 @@
 $(document).ready(function() {
 
+
+	//tabs widget for the reservation form
 	$("#tabs").tabs({
 		collapsible: true,
 		heightStyle: "content",
 		active: 0
 	});
 	
+	// Datepicker widget for arrival date
 	$("#arrival_date").datepicker({
 		dateFormat: "mm/dd/yy",
 		minDate: 0,
@@ -14,10 +17,11 @@ $(document).ready(function() {
 		selectOtherMonths: true
 	  });
 
+	//If the user clicks on the cancellation button, the dialog box will appear
 	$("#policies").click(function() {
-	$("#dialog").dialog({
-		modal: true // Display the dialog as a modal Dialog widget
-	});
+		$("#dialog").dialog({
+			modal: true
+		});
 	});
 	var emailPattern = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b/;
 	
